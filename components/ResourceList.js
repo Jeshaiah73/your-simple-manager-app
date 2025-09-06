@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import ResourceLabel from "components/ResourceLabel";
+import ResourceLabel from "../components/ResourceLabel";
 import moment from "moment";
 
 const ResourceList = ({resources}) => {

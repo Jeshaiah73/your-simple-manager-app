@@ -1,8 +1,8 @@
-import Layout from "components/Layout";
-import ResourceHighlight from "components/ResourceHighlight";
-import Newsletter from "components/Newsletter";
-import ResourceList from "components/ResourceList";
-import Footer from "components/Footer";
+import Layout from "../components/Layout";
+import ResourceHighlight from "../components/ResourceHighlight";
+import Newsletter from "../components/Newsletter";
+import ResourceList from "../components/ResourceList";
+import Footer from "../components/Footer";
 
 function Home({resources}) {
   return (
@@ -22,7 +22,6 @@ function Home({resources}) {
 export async function getServerSideProps() {
   const resData = await fetch(`${process.env.API_URL}/resources`);
   const data = await resData.json();
-
   return {
     props: {
       resources: data

@@ -1,6 +1,6 @@
 
-import Navbar from "components/Navbar";
-import ActiveResource from "components/ActiveResource";
+import Navbar from "../components/Navbar";
+import ActiveResource from "../components/ActiveResource";
 
 const Layout = ({children}) =>
   <>
