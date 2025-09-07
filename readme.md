@@ -1,5 +1,3 @@
----
-
 # YourSimpleManagerApp
 
 A simple and efficient management system built with **Next.js**, **React**, and **Node.js**.
